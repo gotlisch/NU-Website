@@ -7,9 +7,11 @@
 	<!-- Set the viewport width to device width for mobile -->
   	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-	<!-- Included Bootstrap CSS Files -->
-	<link rel="stylesheet" href="./js/bootstrap/css/bootstrap.min.css" />
-	<link rel="stylesheet" href="./js/bootstrap/css/bootstrap-responsive.min.css" />
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
 	
 	<!-- Css -->	
 	<link rel="stylesheet" href="./css/style.css" />
@@ -19,14 +21,37 @@
 
 	<!-- This is the overlay DIV that is displayed while loading a new page -->
 	<div id="loader"></div>
+	<div id="product_page"></div>
+
+	
+	<button>
+		test
+	</button>
+	
+	
 
 	<div class="container">
+	
+	<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">NU</a>
+    </div>
+    <div>
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#">Page 1</a></li>
+        <li><a href="#">Page 2</a></li>
+        <li><a href="#">Page 3</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+	
 		<div class="row">
-			<div class="span12">
 				<div class="hero-unit">
 					<h1>Infinite Scroll</h1>
 					<p class="">here is a simple example of a infinite scroll!</p>
-				</div>
 			</div>
 		</div>
 
@@ -34,55 +59,54 @@
 		<div id="scroll-container">
 			<div class="content">
 				<div class="row">
-					<div class="span3">
-						
+					<div class="col-md-3">						
 					</div>
-					<div class="span6">
+					<div class="col-md-6">
 						<div class="item">
-							<div class="img"></div>
+							<img src="img/image1.jpg">
 							<div class="caption">
 								<h4>Lorem Ipsum 2</h4>
 								<p>dolore sit amen</p>
 							</div>
 						</div>	
 					</div>
-					<div class="span3">
+					<div class="col-md-3">
 				
 					</div>
 				</div>
 
 			<div class="row">
-					<div class="span3">
+					<div class="col-md-3">
 						
 					</div>
-					<div class="span6">
+					<div class="col-md-6">
 						<div class="item">
-							<div class="img"></div>
+							<img src="img/image1.jpg">
 							<div class="caption">
 								<h4>Lorem Ipsum 2</h4>
 								<p>dolore sit amen</p>
 							</div>
 						</div>	
 					</div>
-					<div class="span3">
+					<div class="col-md-3">
 				
 					</div>
 				</div>		
 			
 			<div class="row">
-					<div class="span3">
+					<div class="col-md-3">
 						
 					</div>
-					<div class="span6">
+					<div class="col-md-6">
 						<div class="item">
-							<div class="img"></div>
+							<img src="img/image1.jpg">
 							<div class="caption">
 								<h4>Lorem Ipsum 2</h4>
 								<p>dolore sit amen</p>
 							</div>
 						</div>	
 					</div>
-					<div class="span3">
+					<div class="col-md-3">
 				
 					</div>
 				</div>
@@ -105,7 +129,12 @@
 	
 
 	<script src="./js/jquery-1.10.0.min.js"></script>
-	<script src="./js/bootstrap/js/bootstrap.min.js"></script>
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	
+	
+	
 	<script src="./js/script.js"></script>
 </body>
 </html>

@@ -39,9 +39,9 @@ jQuery(document).ready(function() {
 	function loadMoreContent(position) {
 		//try to load more content only if the counter is minor than the number of total pages
 		if(position < pages.length) {
-			$('#loader').fadeIn('slow', function() {
+			$('#loader').fadeIn('fast', function() {
 				$.get(pages[position], function(data) {
-					$('#loader').fadeOut('slow', function() {
+					$('#loader').fadeOut('fast', function() {
 						$('#scroll-container').append(data).fadeIn(999);
 						current=position;
 					});
@@ -49,4 +49,15 @@ jQuery(document).ready(function() {
 			});
 		}
 	}
+
+    $("button").click(function(){ 
+		
+		$("#product_page").load("product1.html");
+		
+		
+	});
+
+
+
+
 });
